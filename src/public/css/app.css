@@ -1,0 +1,19 @@
+
+.header {
+    border-width: 1px;
+    border-bottom: solid;
+    border-color: #F4F4F4;
+}
+
+.header__inner {
+    padding: 10px 20px;
+}
+
+.header__logo {
+    color: #F5C800;
+    font-size: 32px;
+    font-family: jsMath-cmti10;
+    font-style: italic;
+    font-size: 30px;
+    text-decoration: none;
+}
