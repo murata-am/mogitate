@@ -35,8 +35,14 @@ php artisan migrate
 シーディングの実行
 php artisan db:seed
 
-### 使用技術(実行環境)
+## 使用技術(実行環境)
 
 PHP 8.4.1
 Laravel 8.83.8
 MySQL8.0.26
+
+##ER図
+![er-diagram](https://github.com/user-attachments/assets/6e8e88c4-4dc3-4ccd-a9d0-64e15bbe46ef)
+
+##URL
+開発環境: http://localhost/products
