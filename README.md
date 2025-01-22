@@ -2,7 +2,7 @@
 
 ## 環境構築
 
-git clone
+git clone　git@github.com:murata-am/mogitate.git
 
 dockerビルド docker-compose up -d --build
 
