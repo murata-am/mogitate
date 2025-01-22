@@ -30,7 +30,7 @@
     margin-right: 20px;
 }
 
-.products__container {
+.products-cards__container {
     flex:3;
     display: grid;
     gap: 20px;

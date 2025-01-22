@@ -29,18 +29,19 @@
             </div>
             <div class="products-sorter__container">
                 <div class="products-sorter__title">
-                <p>価格順で表示</p>
-            </div>
-            <select class="products-sorter__select">
-                <option value="">価格で並べ替え</option>
-            </select>
+                    <p>価格順で表示</p>
+                </div>
+                <select class="products-sorter__select">
+                    <option value="">価格で並べ替え</option>
+                </select>
             </div>
         </div>
-        <div class="products__container">
-            <div class="product list">
+        <div class="products-cards__container">
+            <div class="product-card__img-wrapper">
                 @foreach($products as $product)
-                    <img src="{{ asset('storage/' . $product->image) }}" alt="{{ $product->name }}" style="width: 100px; height: auto;"><br>
-                    <strong>{{ $product->name }}</strong><br>
+                    <img src="{{ asset('storage.fruits-img.' . $product->image) }}" alt="{{ $product->name }}"
+                        style="width: 100px; height: auto;"><br>
+                    <strong>{{ $product->name }}</strong>
                     ￥{{ $product->price }}<br>
                 @endforeach
             </div>
